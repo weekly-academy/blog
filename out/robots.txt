@@ -1,5 +1,5 @@
 User-Agent: *
 Allow: /
 
-Host: https://weekly-academy.github.io/blog
-Sitemap: https://weekly-academy.github.io/blog/sitemap.xml
+Host: https://blog.weekly.ac
+Sitemap: https://blog.weekly.ac/sitemap.xml
