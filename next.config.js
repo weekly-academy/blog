@@ -76,14 +76,7 @@ module.exports = () => {
     },
     assetPrefix: !debug ? `/${repository}/` : '', // production 일때 prefix 경로
     trailingSlash: true, // 빌드 시 폴더 구조 그대로 생성하도록
-    async headers() {
-      return [
-        {
-          source: '/(.*)',
-          headers: securityHeaders,
-        },
-      ]
-    },
+    output: 'export',
     webpack: (config, options) => {
       config.module.rules.push({
         test: /\.svg$/,
