@@ -85,6 +85,27 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                             </Link>
                           )}
                         </dd>
+                        <dd>
+                          {author.github && (
+                            <Link
+                              href={author.github}
+                              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                            >
+                              GitHub
+                            </Link>
+                          )}
+                        </dd>
+
+                        <dd>
+                          {author.linkedin && (
+                            <Link
+                              href={author.linkedin}
+                              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                            >
+                              LinkedIn
+                            </Link>
+                          )}
+                        </dd>
                       </dl>
                     </li>
                   ))}

@@ -1,15 +1,15 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: '위클리 아카데미 블로그',
+  author: '위클리 아카데미 멤버들',
+  headerTitle: 'Weekly Academy Blog',
+  description: '위클리 아카데미 멤버들이 함께 작성하는 블로그',
   language: 'ko-KR',
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog.weekly.ac',
   siteRepo: 'https://github.com/weekly-academy/blog',
   siteLogo: '/static/images/logo.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/og-image.png',
   email: 'team.weekly.ac@gmail.com',
   github: 'https://github.com/weekly-academy',
   locale: 'ko-KR',
@@ -64,7 +64,7 @@ const siteMetadata = {
       // example: https://giscus.app/themes/custom_example.css
       themeURL: '',
       // This corresponds to the `data-lang="en"` in giscus's configurations
-      lang: 'en',
+      lang: 'ko',
     },
   },
   search: {
