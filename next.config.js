@@ -55,7 +55,7 @@ const securityHeaders = [
 ]
 
 const debug = process.env.NODE_ENV !== 'production'
-const repository = 'http://weekly-academy.github.iuo/blog'
+const repository = 'http://weekly-academy.github.io/blog'
 
 /**
  * @type {import('next/dist/next-server/server/config').NextConfig}
