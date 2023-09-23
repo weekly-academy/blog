@@ -1,5 +1,0 @@
-User-Agent: *
-Allow: /
-
-Host: https://blog.weekly.ac
-Sitemap: https://blog.weekly.ac/sitemap.xml
