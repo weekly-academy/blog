@@ -2,7 +2,7 @@
   "name": "tailwind-nextjs-starter-blog",
   "version": "2.0.1",
   "private": true,
-  "homepage": "http://weekly-academy.github.io/blog",
+  "homepage": "https://blog.weekly.ac",
   "scripts": {
     "start": "next dev",
     "dev": "cross-env INIT_CWD=$PWD next dev",
